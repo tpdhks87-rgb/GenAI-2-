@@ -19,6 +19,11 @@
 | **프롬프트** | `empty train station at dawn, blue hour, lonely traveler from behind, cinematic, --ar 16:9 --style raw --v 6 --sref [시드]` |
 | **내레이션** | "아직 아무도 깨지 않은 시간, 나는 떠난다." |
 | **출력요약** | 차분한 블루톤 정지컷 → 카메라 서서히 전진하는 모션 |
+기획 의도에 맞는 결과물을 얻기 위해 프롬프트를 어떻게 설계·수정했는지 설명할 수 있다.
+(질문방식)
+an empty train station at dawn, blue hour atmosphere, a lone traveler standing on the platform seen from behind, subtle luggage beside them, quiet and cinematic mood, soft blue ambient light, moody shadows, minimal composition, sense of anticipation and departure, realistic, film still, atmospheric perspective, highly detailed, emotional travel opening scene --ar 16:9 --style raw --v 6 --sref [SEED]
+
+
 
 ### 📌 S2. 달리는 기차 — 여정의 설렘
 | 필드 | 내용 |
@@ -30,6 +35,11 @@
 | **프롬프트** | `view from moving train window, Changwon countryside, morning light, motion blur scenery, --ar 16:9 --style raw --v 6 --sref [시드]` |
 | **내레이션** | "창밖으로 스치는 창원의 아침이 나를 깨운다." |
 | **출력요약** | 밝아지는 색조 + 좌→우 흐르는 풍경 모션 |
+기획 의도에 맞는 결과물을 얻기 위해 프롬프트를 어떻게 설계·수정했는지 설명할 수 있다.
+(질문방식)
+view from a moving train window, Changwon countryside in the early morning, passing green fields and glimpses of the sea, soft golden morning light emerging from blue dawn, subtle motion blur in the scenery, cinematic travel mood, realistic landscape, calm yet uplifting atmosphere, sense of movement and anticipation, film still, highly detailed --ar 16:9 --style raw --v 6 --sref [SEED]
+
+
 
 ### 📌 S3. 창원 일출 — 클라이맥스
 | 필드 | 내용 |
@@ -41,6 +51,10 @@
 | **프롬프트** | `sunrise over Changwon sea, golden hour, warm orange tone, train arriving, cinematic, --ar 16:9 --style raw --v 6 --sref [시드]` |
 | **내레이션** | "내일로 가는 기차, NAERIRO와 함께." |
 | **출력요약** | 오렌지빛 일출 + 태양 상승 모션 + 슬로건 자막 |
+(질문방식)
+cinematic orchestral travel music, emotional sunrise climax, warm golden atmosphere, inspiring build-up, piano and strings, subtle drums, hopeful and grand, feeling of arrival, new beginning, elegant final crescendo
+
+
 
 #### ✅ 필수 필드 체크리스트
 | 필드 | S1 | S2 | S3 |
@@ -114,3 +128,5 @@ NAERIRO/
 - **도구 선택 근거**: 이미지 품질(MJ)·영상 자연스러움(Runway)·음악 맞춤성(Suno)의 조합이 감성 톤에 최적
 - **프롬프트 수정 이유**: 초기 결과가 과하게 밝아 `blue hour`·`golden hour` 명시로 시간대별 색조 제어
 - **불일치 보정**: 씬 간 색온도 차이 발생 시 편집 단계에서 컬러 그레이딩으로 톤 통일
+
+
